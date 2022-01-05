@@ -116,6 +116,8 @@ h3 {
 
 .nav-link {
   color: var(--Grayish-Blue);
+  font-size: 14px;
+  line-height: 16px;
   padding: 0 15px;
   position: relative;
 }
@@ -300,7 +302,7 @@ h3 {
   height: 150%;
   background-image: url(images/bg-intro-desktop.svg);
   background-size: cover;
-  transform: translate(-71px, -241px);
+  transform: translate(-87px, -241px);
 }
 
 .content-1-img {
@@ -309,7 +311,7 @@ h3 {
   left: 0;
   width: 732px;
   height: 901px;
-  transform: translate(107px, -116px);
+  transform: translate(83px, -116px);
   z-index: 5;
 }
 /* End of Section 1 Styles */
@@ -319,7 +321,7 @@ h3 {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 96px 165px 94px 165px;
+  padding: 98px 165px 94px 165px;
   z-index: 0;
   background-color: var(--Light-Grayish-Blue);
 }
@@ -756,6 +758,12 @@ h3 {
   .footer-links {
     margin-left: 0;
     align-items: center;
+  }
+
+  .footer-link {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.23px;
   }
 
   .footer-btn-container {
